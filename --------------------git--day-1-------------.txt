@@ -1,0 +1,35 @@
+--------------------git--------------------------------
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+*****Installation for Git in your local laptop :
+ URL- https://git-scm.com/downloads   #it support os like Windows,Linux,Mac.
+
+yum install git -y # for linux 
+
+After completed of installation go to cmd promt check : git --version 
+
+
+git init -----to intilaise git process (Optional)
+
+-----introduce yourself to Git-------------- 
+------all commands start with git only-----------------
+
+---------------------Git commands---------------------
+----------------### Tell Git who you are----------------------------
+git config --global user.name --- to check configured name 
+git config --global user.email --- to check configured email
+
+Below Example :--
+
+git config --global user.name "veer"
+git config --global user.email "cloud87777@gmail.com"
+
+
+
+--------------------git workflow------------
+
+git status ---- to check file will be tracked or untracked 
+git add -----to add file into staging area from local working directory
+git status ----to see the status of the file where it is 
+git commit -m "comment"
+git push 
